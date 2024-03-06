@@ -22,9 +22,8 @@ public class Main {
         for (int i = 0; i < N; i++) {
             list.add(strArr[i]);
         }
-        list.add("");
 
-        ListIterator<String> it = list.listIterator(list.size()-1);
+        ListIterator<String> it = list.listIterator(list.size());
         for (int i  = 0; i < M; i++) {
             st = new StringTokenizer(br.readLine());
             String input = st.nextToken();
