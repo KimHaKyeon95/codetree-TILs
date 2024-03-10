@@ -17,7 +17,7 @@ public class Main {
         for (int i = 0; i < N-1; i++) {
             int temp = arr[i];
             int tempIndex = i;
-            for (int j = i+1; j < N-1; j++) {
+            for (int j = i+1; j < N; j++) {
                 if (temp > arr[j]) {
                     temp = arr[j];
                     tempIndex = j;
